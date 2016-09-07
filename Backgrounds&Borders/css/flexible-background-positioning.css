@@ -1,0 +1,37 @@
+body,site-wrapper {
+    margin:0;
+}
+
+div{
+    overflow:hidden;
+}
+
+site-wrapper{
+    width: 100vw;
+    height: 200vh;
+}
+
+#background-position-solution{
+    width: 100vw;
+    height: 100vh;
+    background: url(http://csssecrets.io/images/code-pirate.svg)
+	            no-repeat bottom right lightgreen;
+	background-position: right 20px bottom 10px;
+}
+
+#background-origin-solution{
+     width: 100vw;
+    height: 100vh;
+    background-color: black;
+     background: url(http://csssecrets.io/images/code-pirate.svg)
+	            no-repeat black bottom right;
+    background-origin: content-box;
+}
+
+#background-calc-solution{
+    width: 100vw;
+    height: 100vh;
+    background: url(http://csssecrets.io/images/code-pirate.svg)
+	            no-repeat bottom right hotpink;
+	background-position: calc(100% - 20px) calc(100% - 30px);
+}
